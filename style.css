@@ -21,12 +21,12 @@ body{
 }
 
 .box .face1 {
-    background: url(/bottle2.png);
+    background: url(./bottle2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .box .face2 {
-    background: url(/bottle1.png);
+    background: url(./bottle1.png);
     background-repeat: no-repeat;
     background-position: center;
 }
