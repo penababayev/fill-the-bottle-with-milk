@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill The Bottle with Milk</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="face1"></div>
+        <div class="seperator"></div>
+        <div class="face2"></div>
+    </div>
+
+<script>
+        $('.box').mousemove(function(e){
+            $('.seperator').animate(
+                {
+                    'bottom': -e.pageY + 768 + 'px'
+                },0);
+        });
+</script>
+
+</body>
+</html>
